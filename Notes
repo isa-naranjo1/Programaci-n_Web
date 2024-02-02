@@ -1,0 +1,3 @@
+npm create vite@latest project hello-word-app
+npm i
+npm run dev
