@@ -1,0 +1,54 @@
+/* En tu archivo Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 27px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 88%; /* Ajusta el ancho de la navbar según sea necesario */
+  height: 4%;
+  margin: 0 auto; /* Centra la navbar horizontalmente */
+}
+
+.menu {
+  margin-right: 20px; /* Ajusta el margen entre el menú y la lupa */
+}
+
+.logo {
+  height: 50px;
+  padding: 40px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo img{
+  width: 120px; /* Cambia el valor según sea necesario */
+  height: auto; /* Esto mantiene la proporción de la imagen */
+
+}
+.lupa img{
+  width: 32px; /* Cambia el valor según sea necesario */
+  height: auto;
+}
+
+.menu img,
+.user img,
+.cart img,
+
+.notification img {
+  width: 38px; /* Cambia el valor según sea necesario */
+  height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+/* Estilos para el texto debajo de la imagen del menú */
+.menu p {
+  text-align: center;
+  margin-top: -13px; /* Ajusta el margen superior del texto */
+}
