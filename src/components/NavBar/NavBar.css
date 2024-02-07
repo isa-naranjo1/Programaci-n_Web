@@ -1,5 +1,3 @@
-/* En tu archivo Navbar.css */
-
 .navbar {
   display: flex;
   align-items: center;
@@ -16,12 +14,12 @@
 
 @media (max-width: 768px) {
   .navbar {
-    justify-content: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
   }
 }
 
 .menu {
-  margin-right: 20px; /* Ajusta el margen entre el menú y la lupa */
+  margin-right: 20px; 
 }
 
 .logo {
@@ -32,12 +30,12 @@
 }
 
 .logo img{
-  width: 120px; /* Cambia el valor según sea necesario */
-  height: auto; /* Esto mantiene la proporción de la imagen */
+  width: 120px; 
+  height: auto; 
 
 }
 .lupa img{
-  width: 25px; /* Cambia el valor según sea necesario */
+  width: 25px; 
   height: auto;
 }
 
@@ -46,8 +44,8 @@
 .cart img,
 
 .notification img {
-  width: 31px; /* Cambia el valor según sea necesario */
-  height: auto; /* Esto mantiene la proporción de la imagen */
+  width: 31px; 
+  height: auto; 
 }
 
 .menu {
