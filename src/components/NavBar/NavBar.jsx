@@ -1,10 +1,9 @@
 import React from "react";
-import './Nav.css';
+import './NavBar.css';
 import logo from '../../acses/logo.png';
 import user from '../../acses/user.png';
 import cart from '../../acses/cart.png';
 import notification from '../../acses/notification.png';
-import send from '../../acses/location.png';
 import lupa from '../../acses/lupa.png';
 import menu from '../../acses/menu.png';
 
@@ -13,8 +12,8 @@ export function Navbar(){
         <nav className="navbar">
           <div className="menu">
             <img src={menu} alt="menu" />
-            <p>MENU</p> {/* Texto debajo de la imagen del menú */}
-          </div>
+            <p className="menu-text">Menú</p>
+        </div>
           <div className="lupa">
             <img src={lupa} alt="lupa" />
           </div>

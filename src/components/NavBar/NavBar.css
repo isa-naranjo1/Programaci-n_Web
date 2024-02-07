@@ -3,18 +3,21 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: black;
   color: white;
-  padding: 27px;
+  padding: 15px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  width: 88%; /* Ajusta el ancho de la navbar según sea necesario */
   height: 4%;
-  margin: 0 auto; /* Centra la navbar horizontalmente */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center; /* Centra los elementos horizontalmente */
+  }
 }
 
 .menu {
@@ -34,7 +37,7 @@
 
 }
 .lupa img{
-  width: 32px; /* Cambia el valor según sea necesario */
+  width: 25px; /* Cambia el valor según sea necesario */
   height: auto;
 }
 
@@ -43,12 +46,24 @@
 .cart img,
 
 .notification img {
-  width: 38px; /* Cambia el valor según sea necesario */
+  width: 31px; /* Cambia el valor según sea necesario */
   height: auto; /* Esto mantiene la proporción de la imagen */
 }
 
-/* Estilos para el texto debajo de la imagen del menú */
-.menu p {
-  text-align: center;
-  margin-top: -13px; /* Ajusta el margen superior del texto */
+.menu {
+  position: relative;
 }
+
+.menu-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  size: 5px;
+  font-size: 14px;
+  color: #B0AD5E;
+  left: 17px;
+  font-weight: 630;
+}
+
