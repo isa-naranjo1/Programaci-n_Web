@@ -1,5 +1,9 @@
+body {
+  background-color: #e4e4e4; /* Utilizando formato hexadecimal */
+}
 .navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   color: white;

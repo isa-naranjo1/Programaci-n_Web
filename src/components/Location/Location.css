@@ -1,11 +1,12 @@
 .location-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(84, 84, 85);
     color: white;
     padding: 10px;
     position: fixed;
-    top: 64px;
+    top: 57px;
     left: 0;
     right: 0;
     z-index: 1000;
