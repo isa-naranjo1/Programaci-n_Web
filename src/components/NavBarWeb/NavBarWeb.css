@@ -1,0 +1,15 @@
+
+  h1{
+    color: blueviolet;
+    font-size: 24px;
+  }
+
+
+
+  @media (max-width:375px){
+    h1{
+      display: none;
+    }
+  }
+
+  

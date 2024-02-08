@@ -1,0 +1,29 @@
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 47);
+    color: white;
+    padding: 13px;
+    position: fixed;
+    top: 57px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 1%;
+  }
+
+  .text-container {
+    font-size: 14px;
+    color: white;
+    left: 17px;
+    font-weight: 100;
+
+  }
+
+  .img-container img {
+    height: auto;
+    width: 15px;
+    padding-right: 5px;
+  
+}

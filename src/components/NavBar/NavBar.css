@@ -1,0 +1,78 @@
+body {
+  background-color: #f2f2f2; /* Utilizando formato hexadecimal */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 4%;
+}
+
+@media (min-width:375px){
+  body{
+    background-color: aqua;
+  }
+  .navbar{
+    display: none;
+  }
+}
+
+.logo {
+  height: 50px;
+  padding: 40px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo img{
+  width: 120px; 
+  height: auto; 
+
+}
+.lupa img{
+  width: 25px; 
+  height: auto;
+}
+
+.menu img,
+.user img,
+.cart img,
+
+.notification img {
+  width: 31px; 
+  height: auto; 
+}
+
+button {
+  border: 1px solid transparent;
+  font-family: inherit;
+  background-color: #0000;
+  cursor: pointer;  
+  padding: 4px;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15px;
+  size: 5px;
+  font-size: 12px;
+  color: #B0AD5E;
+  left: 20px;
+  font-weight: 630;
+}
