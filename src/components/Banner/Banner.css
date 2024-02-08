@@ -1,8 +1,44 @@
+.Banner-container{
+    position: fixed; 
+    top: 10%; 
+    width: 100%; 
+    transform: translateX(-50%); 
+    width: 100%;
+}
 .discount img {
-    position: fixed;
-    top: 84px;
-    left: 0;
+    position: relative; /* Cambia la posición a relativa */
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+  }
+  
+  .button-container {
+    position: absolute; /* Cambia la posición a absoluta */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%; 
+    top: 44%;
+    left: 2.5%;
+  }
+  
+  .arrow-button {
+    display: flex; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 0px;
+    cursor: pointer;
+  }
+  
+  .arrow-button::before {
+    content: '<'; 
+    font-size: 24px; 
+  }
+  
+  .arrow-button:last-child::before {
+    content: '>'; 
+  }

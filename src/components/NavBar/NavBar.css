@@ -1,6 +1,7 @@
 body {
-  background-color: #e4e4e4; /* Utilizando formato hexadecimal */
+  background-color: #f2f2f2; /* Utilizando formato hexadecimal */
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -16,11 +17,15 @@ body {
   height: 4%;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    justify-content: center; 
+@media (min-width:375px){
+  body{
+    background-color: aqua;
+  }
+  .navbar{
+    display: none;
   }
 }
+
 
 .menu {
   margin-right: 20px; 
