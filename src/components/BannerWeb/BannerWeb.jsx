@@ -7,11 +7,11 @@ export function BannerWeb () {
 
         <div className="Banner-web">
             <div className="banner">
-                <img src={banner} alt="discount" />
+                <img src={banner} alt="banner" />
             </div>
-            <div class="button-container">
-                <button class="arrow-button"></button>
-                <button class="arrow-button"></button>
+            <div class="button-container-web">
+                <button class="arrow-button-web"></button>
+                <button class="arrow-button-web"></button>
             </div>
 
         </div>

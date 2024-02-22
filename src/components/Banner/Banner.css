@@ -2,7 +2,6 @@
     position: fixed; 
     top: 10%; 
     width: 100%; 
-    transform: translateX(-50%); 
     width: 100%;
 }
 
@@ -13,17 +12,15 @@
 }
 
 
-
-
 .discount img {
-    position: relative; /* Cambia la posición a relativa */
+    position: relative; 
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   
   .button-container {
-    position: absolute; /* Cambia la posición a absoluta */
+    position: absolute; 
     display: flex;
     justify-content: space-between;
     align-items: center;
