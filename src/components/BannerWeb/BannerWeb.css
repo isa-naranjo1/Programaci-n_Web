@@ -1,26 +1,16 @@
-.Banner-container{
-    position: fixed; 
-    top: 10%; 
+.Banner-web {
+    position: relative; /* Asegura que los elementos hijos puedan posicionarse relativamente */
+    width: 100%; /* Establece el ancho al 100% de su contenedor */
+    height: 100vh; /* Establece la altura al 100% de la altura visible del navegador */
+  }
+  
+  .banner img {
     width: 100%; 
-    transform: translateX(-50%); 
-    width: 100%;
-}
-
-@media (min-width:450px){
-  .Banner-container{
-    display: none;
+    height: auto; 
+    object-fit:contain; 
+    margin-top: 6%;
   }
-}
-
-
-
-
-.discount img {
-    position: relative; /* Cambia la posición a relativa */
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+  
   
   .button-container {
     position: absolute; /* Cambia la posición a absoluta */
@@ -28,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 95%; 
-    top: 44%;
+    top: 47%;
     left: 2.5%;
   }
   
@@ -36,8 +26,8 @@
     display: flex; 
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 0px;
@@ -46,7 +36,7 @@
   
   .arrow-button::before {
     content: '<'; 
-    font-size: 24px; 
+    font-size: 40px; 
   }
   
   .arrow-button:last-child::before {

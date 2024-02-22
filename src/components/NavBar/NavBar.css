@@ -4,6 +4,7 @@ body {
 
 .navbar {
   display: flex;
+  
   justify-content: space-around;;
   align-items: center;
   background-color: black;
@@ -17,10 +18,7 @@ body {
   height: 4%;
 }
 
-@media (min-width:375px){
-  body{
-    background-color: aqua;
-  }
+@media (min-width:450px){
   .navbar{
     display: none;
   }
@@ -36,7 +34,6 @@ body {
 .logo img{
   width: 120px; 
   height: auto; 
-
 }
 .lupa img{
   width: 25px; 

@@ -3,6 +3,7 @@ import { Navbar } from './components/NavBar/NavBar'
 import { Location } from "./components/Location/Location";
 import { Banner } from "./components/Banner/Banner";
 import { NavBarWeb } from "./components/NavBarWeb/NavBarWeb";
+import { BannerWeb } from "./components/BannerWeb/BannerWeb";
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <Location/>
       <Banner/>
       <NavBarWeb/>
+      <BannerWeb/>
       </>
       
   )

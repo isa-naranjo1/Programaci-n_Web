@@ -12,7 +12,12 @@
     z-index: 1000;
     height: 1%;
   }
-
+  @media (min-width:450px){
+    .location-container{
+      display: none;
+    }
+  }
+  
   .text-container {
     font-size: 14px;
     color: white;
