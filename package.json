@@ -12,7 +12,10 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-carousel": "^4.3.0",
     "react-dom": "^18.2.0"
   }
 }

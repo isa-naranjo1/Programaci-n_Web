@@ -3,15 +3,15 @@
     flex-direction: row;
     justify-content: center;;
     align-items: center;
-    background-color: #ffd700 ;
+    background-color: #b8a25a ;
     color: black;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    top: 72px;
+    top: 70px;
     left: 0;
     right: 0;
     z-index: 1000;
-    height: 4%;
+    height: 6.5%;
   }
 
   @media (max-width:450px){

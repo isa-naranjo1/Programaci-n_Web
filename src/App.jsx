@@ -5,6 +5,7 @@ import { Banner } from "./components/Banner/Banner";
 import { NavBarWeb } from "./components/NavBarWeb/NavBarWeb";
 import { BannerWeb } from "./components/BannerWeb/BannerWeb";
 import { Options } from './components/Options/Options';
+import {CarouselWeb} from './components/Carousel/Carousel';
 
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <NavBarWeb/>
       <BannerWeb/>
       <Options/>
+      <CarouselWeb/>
       </>
       
   )

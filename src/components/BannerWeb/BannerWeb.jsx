@@ -9,9 +9,19 @@ export function BannerWeb () {
             <div className="banner">
                 <img src={banner} alt="banner" />
             </div>
-            <div class="button-container-web">
-                <button class="arrow-button-web"></button>
-                <button class="arrow-button-web"></button>
+            <div className="button-container-web">
+                <button className="arrow-button-web"></button>
+                <button className="arrow-button-web"></button>
+            </div>
+            <div className="items">
+            <div className="circle">Vinos</div>
+                <a>Whisky</a>
+                <a>Tequilas</a>
+                <a>Cervezas</a>
+                <a>Maltas</a>
+                <a>Ginebra</a>
+                <a>Ron</a>
+                <a>Otros</a>
             </div>
 
         </div>
