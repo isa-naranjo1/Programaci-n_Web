@@ -6,7 +6,7 @@
   background-color: black;
   color: white;
   padding: 22px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -31,6 +31,7 @@
 
 div.nav-options{
   display: flex;
+  margin-right: 10px; 
 }
 
 .nav-options img {
@@ -50,15 +51,14 @@ div.nav-options{
 }
 
 .search-bar {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ffffff;
-    border-radius: 10px;
-    width: 250px;
-    height: 43px;
-    
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 250px;
+  height: 43px;
 }
 
 .search-bar img {
@@ -74,6 +74,7 @@ div.nav-options{
   margin-left: -20px;
 }
 
+
 .iconos img {
     width: 30px; 
     margin-left: 15px; 
@@ -81,7 +82,6 @@ div.nav-options{
 
 .delivery {
   color:rgb(142, 147, 3);
-  margin-right: 2%;
 }
 
 

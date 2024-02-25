@@ -17,17 +17,17 @@ export function NavBarWeb(){
             <img src={logo} alt="Logo" />
           </div>
           <div className="nav-options">
-                <a href="#">
+                <a>
                     <img  src={sale} alt="ofertas" />
                     Ofertas
                 </a>
-                <a href="#">
+                <a>
                     <img  src={store} alt="store" />
                     Tu store
                 </a>
-                <a href="#"> Club Dislicores</a>
-                <a href="#">Cotizaciones</a>
-                <a href="#">Ayuda</a>
+                <a> Club Dislicores</a>
+                <a >Cotizaciones</a>
+                <a >Ayuda</a>
             </div>
             <div className="search-bar">
                 <input type="text" placeholder="Buscar" />

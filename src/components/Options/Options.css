@@ -1,0 +1,37 @@
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+    align-items: center;
+    background-color: #ffd700 ;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 72px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 4%;
+  }
+
+  @media (max-width:450px){
+    .options{
+      display: none;
+    }
+  }
+
+  .options a {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Ajusta el espaciado entre el texto y la imagen */
+    position: relative; 
+    margin: 0 15px;
+}
+  
+  .options img {
+    position: absolute;
+    right: -9px; /* Ajusta la posición de la imagen a la derecha */
+    width: 12px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+  }
+  

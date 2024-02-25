@@ -4,6 +4,7 @@ import { Location } from "./components/Location/Location";
 import { Banner } from "./components/Banner/Banner";
 import { NavBarWeb } from "./components/NavBarWeb/NavBarWeb";
 import { BannerWeb } from "./components/BannerWeb/BannerWeb";
+import { Options } from './components/Options/Options';
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Banner/>
       <NavBarWeb/>
       <BannerWeb/>
+      <Options/>
       </>
       
   )
