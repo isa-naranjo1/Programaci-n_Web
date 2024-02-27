@@ -1,4 +1,5 @@
 import React from 'react'
+import {Hamburger} from './components/Hamburger/Hamburger';
 import { Navbar } from './components/NavBar/NavBar'
 import { Location } from "./components/Location/Location";
 import { Banner } from "./components/Banner/Banner";
@@ -15,6 +16,7 @@ import {Footer} from './components/Footer/Footer';
 export default function App() {
   return(
       <>
+      <Hamburger/>
       <Navbar/>
       <Location/>
       <Banner/>
@@ -25,6 +27,7 @@ export default function App() {
       <FooterWeb/>
       <Product/>
       <Footer/>
+      
       </>
       
   )

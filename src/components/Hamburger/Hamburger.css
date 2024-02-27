@@ -1,0 +1,99 @@
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none; /* Oculta el menú por defecto */
+    top: 95px;
+}
+
+.hamburger-menu.open {
+    display: flex; /* Muestra el menú cuando isMenuOpen es true */
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #161515; /* Color de fondo del menú */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 270px; /* Ancho de la ventana del menú */
+    height: 100%; /* Altura de la ventana del menú */
+    
+}
+
+.container-sale {
+    display: flex;
+    gap: 140px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.sale-section {
+    display: flex;
+    align-items: center;
+}
+
+.sale-section img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.sale-section span {
+    color: #b8a25a; /* Cambia el color del texto a naranja */
+    font-size: 18px; /* Cambia el tamaño de la fuente a 24px */
+}
+
+.X {
+    margin-top: 10px;
+}
+
+.X img {
+    width: 20px;
+}
+
+.item-section {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 100px;
+    margin-left: -150px;
+}
+
+.item-section img {
+    width: 5%;
+}
+
+.item-section button span {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.separator {
+    width: 90%;
+    margin-left: 18px;
+    left: 20px;
+}
+
+.btn-final {
+    display: grid; /* Usar grid layout para organizar en filas y columnas */
+    grid-template-columns: 1fr 1fr; /* Dividir en dos columnas */
+    grid-template-rows: auto auto; /* Ajustar automáticamente el alto de las filas */
+    gap: 10px; /* Espacio entre los botones */
+    justify-content: center; /* Centrar los botones horizontalmente */
+    align-items: center; /* Centrar los botones verticalmente */
+}
+
+.btn-final button {
+    background-color: #525252;
+    color: #fff;
+    border: none;
+    padding: 12px 17px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}

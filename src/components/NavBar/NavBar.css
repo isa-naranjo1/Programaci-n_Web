@@ -40,7 +40,7 @@ body {
   height: auto;
 }
 
-.menu img,
+.menuBar img,
 .user img,
 .cart img,
 
@@ -57,7 +57,7 @@ button {
   padding: 4px;
 }
 
-.menu {
+.menuBar {
   position: relative;
 }
 
