@@ -23,7 +23,7 @@ export function Product() {
                   <img src={producto1}/>
                   <h2>$38.430  <span className="color-precio">$54.900</span></h2>
                   <p className="Description-porduct">Vino Tinto Trapiche Varietal Merlot</p>
-                  <div className="like1" >
+                  <div className="like1-P" >
                     <img src={like} alt="Like"/>
                   </div>
                   <p className="ml">750ml</p>
@@ -41,7 +41,7 @@ export function Product() {
                   <img src={producto2} alt="Imagen 2" />
                   <h2>$38.430  <span className="color-precio">$54.900</span></h2>
                   <p className="Description-porduct">Vino Rosado Trapiche Malbec Cabernet </p>
-                  <div className="like2" >
+                  <div className="like2-P" >
                     <img src={like} alt="Like"/>
                   </div>
                   <p className="ml-product">750ml</p>

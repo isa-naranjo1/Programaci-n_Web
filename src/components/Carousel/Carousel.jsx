@@ -20,15 +20,19 @@ export function CarouselWeb() {
       </div>
       <div className="container">
           <div className="cards">
+
+            
               <div className="card-container1">
                 <div className="card1">
                   <img src={producto1} alt="Imagen 1" />
                   <h2>$38.430  <span className="color-precio">$54.900</span></h2>
                   <p className="Description">Vino Tinto Trapiche Varietal Merlot</p>
-                  <img src={like} alt="Like" className="like-icon" />
+                  <div className="like1" >
+                    <img src={like} alt="Like"/>
+                  </div>
                   <p className="ml">750ml</p>
-                  <div className="descuento-container">
-                  <p className="descuento">-33%</p>
+                  <div className="descuento1">
+                  <p>-33 %</p>
                   </div>
                   <button className="Agregar">
                       <img src={cart} alt="cart" />
@@ -36,15 +40,19 @@ export function CarouselWeb() {
                   </button>
                 </div>
               </div>
+
+
               <div className="card-container2">
                 <div className="card2">
                   <img src={producto2} alt="Imagen 2" />
                   <h2>$38.430  <span className="color-precio">$54.900</span></h2>
                   <p className="Description">Vino Rosado Trapiche Malbec Cabernet </p>
-                  <img src={like} alt="Like" className="like-icon" />
+                  <div className="like2" >
+                    <img src={like} alt="Like"/>
+                  </div>
                   <p className="ml">750ml</p>
-                  <div className="descuento-container">
-                  <p className="descuento">-33%</p>
+                  <div className="descuento2">
+                  <p>-33 %</p>
                   </div>
                   <button className="Agregar">
                       <img src={cart} alt="cart" />
@@ -52,32 +60,38 @@ export function CarouselWeb() {
                   </button> 
                 </div>
               </div>
+
+
               <div className="card-container3">
                 <div className="card3">
                   <img src={producto3} alt="Imagen 3" />
                   <h2>$129.700</h2>
                   <p className="Description">Vino Tinto Trapiche Medalla Cabernet </p>
-                  <img src={like} alt="Like" className="like-icon" />
+                  <div className="like3" >
+                    <img src={like} alt="Like"/>
+                  </div>
                   <p className="ml">750ml</p>
-                  <div className="descuento-container">
-                  <p className="descuento">-33%</p>
-                  </div> 
                   <button className="Agregar">
                       <img src={cart} alt="cart" />
                       <p>Agregar</p>
                   </button>         
                 </div>
               </div>
+
+
+
               <div className="card-container4">
                 <div className="card4">
                   <img src={producto4} alt="Imagen 4" />
                   <h2>$49.980  <span className="color-precio">$71.400</span></h2>
                   <p className="Description">Vino Tinto Tarapacá Reserva Carmenére</p>
-                  <img src={like} alt="Like" className="like-icon" />
+                  <div className="like4" >
+                    <img src={like} alt="Like"/>
+                  </div>
                   <p className="ml">750ml</p>
-                  <div className="descuento-container">
-                  <p className="descuento">-33%</p>
-                  </div> 
+                  <div className="descuento4">
+                  <p>-33 %</p>
+                  </div>
                   <button className="Agregar">
                       <img src={cart} alt="cart" />
                       <p>Agregar</p>

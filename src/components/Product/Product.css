@@ -135,18 +135,18 @@
     background-color: #0056b3;
 }
 
-.like1 {
+.like1-P {
     position: absolute;
     top: -7px;
     left: 120px;
 }
 
-.like2 img,
-.like1 img{
+.like2-P img,
+.like1-P img{
     width: 60px;
 }
 
-.like2 {
+.like2-P {
     position: absolute;
     top: -7px;
     left: 340px;
