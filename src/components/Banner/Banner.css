@@ -49,3 +49,28 @@
   .arrow-button:last-child::before {
     content: '>'; 
   }
+  .items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.items a {
+  margin: 5px;
+  padding: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.circle {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 10px; /* Ajusta el valor de border-radius para controlar la curvatura de las esquinas */
+  padding: 5px 10px;
+  margin: 5px;
+  text-align: center;
+  line-height: 1; /* Ajuste para centrar verticalmente el texto dentro del rectángulo */
+}
+

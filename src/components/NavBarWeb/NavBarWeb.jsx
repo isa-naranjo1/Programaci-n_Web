@@ -6,7 +6,7 @@ import cart from '../../acses/cart.png';
 import notification from '../../acses/notification.png';
 import location from '../../acses/location.png';
 import lupa from '../../acses/lupa.png';
-import sale from '../../acses/ofertas.png';
+import sale from '../../acses/sale.png';
 import store from '../../acses/store.png';
 
 

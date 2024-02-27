@@ -13,7 +13,7 @@ export function BannerWeb () {
                 <button className="arrow-button-web"></button>
                 <button className="arrow-button-web"></button>
             </div>
-            <div className="items">
+            <div className="items-web">
             <div className="circle">Vinos</div>
                 <a>Whisky</a>
                 <a>Tequilas</a>

@@ -1,0 +1,118 @@
+.footer {
+    display: flex;
+    background-color: #202020;
+    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  @media (max-width:450px){
+    .footer{
+      display: none;
+    }
+  }
+  
+  .qr img,
+  .logo-footer img{
+    width: 200px;
+  }
+
+  a{
+    font-size: 14px;
+  }
+  .containers {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+  
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo{
+    color: white;
+  }
+  .redes{
+    display: flex;
+  }
+  .redes img {
+    width: 25px;
+    margin-right: 10px;
+    background-color: #b5a264;
+    border-radius: 5px;
+  }
+
+  .mail,
+  .phone,
+  .whatsapp{
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .phone img {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .phone-info {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+  }
+  .phone-info p {
+    margin: 0px 0;  
+}
+    .column3,
+    .column2, 
+    .column1{
+        display: flex;
+        flex-direction: column;
+    }
+  
+  .second-container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .second-container img {
+    width: 26px;
+    height: 24PX;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  
+  
+  .third-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .navega-secure img,
+  .image-row img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .final-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #b5a264;
+    font-size: 12px;
+  }
+  .navega-secure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .insdustria{
+    width: 100px;
+  }
+  .arrecipe{
+    width: 200px;
+  }

@@ -20,13 +20,14 @@
   }
 }
 
+
 .logo-web{
   height: 46px;
   margin-right: 20px;
 }
 
 .logo-web img {
-  width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+  width: 150px; 
 }
 
 div.nav-options{
@@ -35,19 +36,21 @@ div.nav-options{
 }
 
 .nav-options img {
-  width: 25px; /* Cambia el ancho según sea necesario */
-  height: auto; /* Mantenemos la proporción original */
+  width: 25px; 
+  height: auto; 
   margin-right: 5px; 
 }
 
 .nav-options a {
-  color: #ffffff; /* Color del texto blanco */
+  color: #ffffff; 
   text-decoration: none;
   margin-right: 30px; 
   display: flex;
+  font-size: 15px;
+  font-weight: bold;
 }
 .nav-options a:nth-child(1) {
-  color: rgb(142, 147, 3); /* Cambia el color del texto a azul */
+  color: #b8a25a;
 }
 
 .search-bar {
@@ -81,7 +84,7 @@ div.nav-options{
 }
 
 .delivery {
-  color:rgb(142, 147, 3);
+  color:#b8a25a
 }
 
 

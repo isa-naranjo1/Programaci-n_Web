@@ -5,13 +5,11 @@
     align-items: center;
     background-color: #b8a25a ;
     color: black;
-    position: fixed;
+    position: relative;
     width: 100%;
-    top: 70px;
-    left: 0;
-    right: 0;
     z-index: 1000;
-    height: 6.5%;
+    gap: 30px;
+    margin-top: 70px;
   }
 
   @media (max-width:450px){
@@ -26,6 +24,7 @@
     padding: 10px; /* Ajusta el espaciado entre el texto y la imagen */
     position: relative; 
     margin: 0 15px;
+    font-weight:600;
 }
   
   .options img {

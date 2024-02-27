@@ -13,6 +13,13 @@ export  function Banner () {
                 <button class="arrow-button"></button>
                 <button class="arrow-button"></button>
             </div>
+            <div className="items">
+            <div className="circle">Vinos</div>
+                <a>Whisky</a>
+                <a>Tequilas</a>
+                <a>Cervezas</a>
+                <a>Maltas</a>
+            </div>
 
         </div>
         
