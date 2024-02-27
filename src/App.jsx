@@ -8,6 +8,8 @@ import { BannerWeb } from "./components/BannerWeb/BannerWeb";
 import {CarouselWeb} from './components/Carousel/Carousel';
 import {FooterWeb} from './components/FooterWeb/FooterWeb';
 import {Product} from './components/Product/Product';
+import {Footer} from './components/Footer/Footer';
+
 
 
 export default function App() {
@@ -22,6 +24,7 @@ export default function App() {
       <CarouselWeb/>
       <FooterWeb/>
       <Product/>
+      <Footer/>
       </>
       
   )

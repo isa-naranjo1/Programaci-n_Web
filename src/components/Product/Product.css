@@ -33,9 +33,9 @@
     color: #000;
 }
 .fondo{
-    width: 430px;
-    height: auto;
+    width: 449px;
     margin-top: -57%;
+    margin-left: -4%;
 }
 
 .color{
@@ -63,16 +63,16 @@
 .cards-product {
     display: flex;
     position: relative;
-    margin: 6px; /* Reducir el margen */
+    margin: 6px; 
 
 }
 .card-product {
-    flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño */
+    flex: 1; 
   }
 
 .container-product1,
 .container-product2{
-  flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño */
+  flex: 1;
   padding: 10px; 
 }
 
@@ -182,21 +182,21 @@
     
   }
   .Agregar-product {
-    display: flex; /* Utilizamos flexbox para centrar elementos */
+    display: flex; 
     background-color: #661414;
     color: white;
     cursor: pointer;
-    padding: 0px 20px; /* Ajusta el relleno horizontal según sea necesario */
+    padding: 0px 20px; 
     border-radius: 15px;
     transition: background-color 0.3s ease;
     height: 50px;
   }
   
   .Agregar-product img {
-    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 40px;
   }
   
   .Agregar-product p {
-    margin: 10px; /* Elimina el margen por defecto del párrafo */
+    margin: 10px; 
   }
   

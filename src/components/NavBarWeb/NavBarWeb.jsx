@@ -31,7 +31,7 @@ export function NavBarWeb(){
             </div>
             <div className="search-bar">
                 <input type="text" placeholder="Buscar" />
-                <img src={lupa} alt="lupa" /> {/* Aquí agregas la imagen dentro del input */}
+                <img src={lupa} alt="lupa" />
             </div>
             <div className="iconos">
               <img src={user} alt="user" />

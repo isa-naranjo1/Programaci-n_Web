@@ -6,13 +6,13 @@
     align-items: stretch;
   }
   @media (max-width:450px){
-    .footer{
+    .FooterWeb{
       display: none;
     }
   }
   
   .qr img,
-  .logo-footer img{
+  .logo-footer-web img{
     width: 200px;
   }
 

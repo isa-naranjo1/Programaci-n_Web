@@ -21,10 +21,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%; /* Ajusta según sea necesario */
-    top: 50%; /* Ajusta según sea necesario */
-    left: 5%; /* Ajusta según sea necesario */
-    z-index: 2; /* Coloca los botones encima de la imagen */
+    width: 90%; 
+    top: 50%; 
+    left: 5%;
+    z-index: 2; 
   }
   
   .arrow-button-web {
@@ -66,9 +66,9 @@
   display: inline-block;
   background-color: black;
   color: white;
-  border-radius: 10px; /* Ajusta el valor de border-radius para controlar la curvatura de las esquinas */
+  border-radius: 10px; 
   padding: 5px 10px;
   margin: 5px;
   text-align: center;
-  line-height: 1; /* Ajuste para centrar verticalmente el texto dentro del rectángulo */
+  line-height: 1; 
 }
