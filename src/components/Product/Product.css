@@ -3,6 +3,7 @@
     background-color: #f2f0f0;
     position: relative;
     padding: 2% 3% 0%;
+    flex-direction: column;
     
 }
 @media (min-width:450px){
@@ -19,10 +20,12 @@
     margin-bottom: 20px;
 }
 
+.nuestros{
+        color:#b8a25a;
+
+}
 .title h1 {
-    font-size: 60px;
-    color:#b8a25a;
-    margin-bottom: -40px;
+    font-size: 40px;
 
 }
 .title h2{
@@ -30,10 +33,9 @@
     color: #000;
 }
 .fondo{
-    width: 385px;
+    width: 430px;
     height: auto;
-    margin-top: -16%;
-    margin-right: 120%;
+    margin-top: -57%;
 }
 
 .color{
@@ -47,7 +49,8 @@
 
 .title p {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    width: 400px;
     color: black;
 }
 
@@ -60,34 +63,35 @@
 .cards-product {
     display: flex;
     position: relative;
-    left: 50px;
+    margin: 6px; /* Reducir el margen */
 
 }
+.card-product {
+    flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño */
+  }
 
 .container-product1,
-.container-product2,
-.container-product3,
-.container-product4 {
+.container-product2{
   flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño */
   padding: 10px; 
 }
 
 
 .mas-products {
+    position: relative;
     background-color: #141313;
     color: white;
     cursor: pointer;
     border-radius: 15px;
     border-color: transparent;
     margin-top: 46px;
-    width: 300px;
+    width: 250px;
     height: 50px;
+    margin: 3% 19% 10%;
 }
 
 .card-porduct1 img,
-.card-porduct2 img,
-.card-porduct3 img,
-.card-porduct4 img {
+.card-porduct2 img{
     width: 100%; 
     height: auto; 
     border-radius: 5px; 
@@ -95,15 +99,13 @@
 }
 
 .card-porduct1 h2,
-.card-porduct2 h2,
-.card-porduct3 h2,
-.card-porduct4 h2 {
-    font-size: 24px;
+.card-porduct2 h2 {
+    font-size: 20px;
     color: black;
 }
 
 .ml-product{
-    font-size: 15px;
+    font-size: 14px;
     color: #803c3c;
     border: 1px solid #803c3c;
     border-radius: 5px;
@@ -112,15 +114,13 @@
     width: 50px;
 }
 
-.escription-porduct{
-    font-size: 20px;
+.Description-porduct{
+    font-size: 15px;
     color: black;
 }
 
 .card-porduct1 a,
-.card-porduct2 a,
-.card-porduct3 a,
-.card-porduct4 a {
+.card-porduct2 a{
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff;
@@ -131,48 +131,72 @@
 }
 
 .card-porduct1 a:hover,
-.card-porduct2 a:hover,
-.card-porduct3 a:hover,
-.card-porduct4 a:hover {
+.card-porduct2 a:hover{
     background-color: #0056b3;
 }
 
-.like {
+.like1 {
     position: absolute;
-    top: -540px;
-    right: 340px;
-    transform: scale(0.1);
+    top: -7px;
+    left: 120px;
 }
 
-.descuento-porduct {
+.like2 img,
+.like1 img{
+    width: 60px;
+}
+
+.like2 {
     position: absolute;
-    top: 0; 
+    top: -7px;
+    left: 340px;
+}
+
+
+
+.descuento-porduct1 {
+    position: absolute;
+    top: 0;
     left: 0;
     background-color: #b8a25a;
     color: rgb(255, 255, 255);
-    padding: 5px 10px;
+    padding: 0px 10px;
     border-radius: 5px;
+
   }
 
-.Agregar-porduct {
-    display: flex;
+  .descuento-porduct2{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: #b8a25a;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 5px;
+
+  }
+  .descuento-porduct2 p,
+  .descuento-porduct1 p{
+    font-size: 12px;
+    font-weight: bold;
+    
+  }
+  .Agregar-product {
+    display: flex; /* Utilizamos flexbox para centrar elementos */
     background-color: #661414;
     color: white;
     cursor: pointer;
-    padding: 0px 110px;
+    padding: 0px 20px; /* Ajusta el relleno horizontal según sea necesario */
     border-radius: 15px;
-    flex-direction: row;
-    justify-content: center;
     transition: background-color 0.3s ease;
-    height:50px;
-}
-
-.Agregar-porduct img{
-    width: 100%;
-}
-
-
-.Agregar-porduct:hover {
-    background-color: #810000;
-}
-
+    height: 50px;
+  }
+  
+  .Agregar-product img {
+    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+  }
+  
+  .Agregar-product p {
+    margin: 10px; /* Elimina el margen por defecto del párrafo */
+  }
+  

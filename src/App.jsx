@@ -7,6 +7,7 @@ import { Options } from './components/Options/Options';
 import { BannerWeb } from "./components/BannerWeb/BannerWeb";
 import {CarouselWeb} from './components/Carousel/Carousel';
 import {Footer} from './components/Footer/Footer';
+import {Product} from './components/Product/Product';
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <BannerWeb/>
       <CarouselWeb/>
       <Footer/>
+      <Product/>
       </>
       
   )

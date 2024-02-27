@@ -53,12 +53,12 @@
 
   
   .phone img {
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-right: 10px; 
   }
   
   .phone-info {
     display: flex;
-    flex-direction: column; /* Apila los elementos verticalmente */
+    flex-direction: column; 
   }
   .phone-info p {
     margin: 0px 0;  
