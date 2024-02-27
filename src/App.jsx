@@ -6,7 +6,7 @@ import { NavBarWeb } from "./components/NavBarWeb/NavBarWeb";
 import { Options } from './components/Options/Options';
 import { BannerWeb } from "./components/BannerWeb/BannerWeb";
 import {CarouselWeb} from './components/Carousel/Carousel';
-import {Footer} from './components/Footer/Footer';
+import {FooterWeb} from './components/FooterWeb/FooterWeb';
 import {Product} from './components/Product/Product';
 
 
@@ -20,7 +20,7 @@ export default function App() {
       <Options/>
       <BannerWeb/>
       <CarouselWeb/>
-      <Footer/>
+      <FooterWeb/>
       <Product/>
       </>
       

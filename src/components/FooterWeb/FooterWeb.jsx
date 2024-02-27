@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; 
+import './FooterWeb.css'; 
 import logo from '../../acses/logo.png';
 import youtube from '../../acses/youtube.png';
 import instagram from '../../acses/instagram.png';
@@ -17,9 +17,9 @@ import whatsapp from '../../acses/whatsapp.png';
 import mail from '../../acses/mail.png';
 import telephone from '../../acses/telephone.png';
 
-export function Footer() {
+export function FooterWeb() {
   return (
-    <footer className='footer'>
+    <footer className='FooterWeb'>
     <div className='containers'> 
             <div className="first-container">
                 <div className="logo-footer">
