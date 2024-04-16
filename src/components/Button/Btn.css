@@ -1,0 +1,12 @@
+.Btn {
+    display: block;
+    margin: 30px auto; /* Para centrar el botón horizontalmente */
+    background-color: blueviolet; /* Fondo violeta azulado */
+    border: 2px solid white; /* Borde blanco de 2 píxeles */
+    border-radius: 10px; /* Bordes curvos */
+    padding: 10px 60px; /* Espacio interior */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: medium;
+    font-weight: 550;
+    color: rgb(217, 217, 217); /* Color del texto */
+}

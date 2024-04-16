@@ -1,0 +1,23 @@
+.cat-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat-card h1 {
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.cat-card img {
+    border-radius: 2rem;
+    max-width: 600px;
+
+}
+
+
+.cat-card p {
+    margin-left: 50px;
+    margin-right: 50px; /* Agregar margen a la imagen */
+    font-size: 20px;
+}
